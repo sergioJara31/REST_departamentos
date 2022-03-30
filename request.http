@@ -1,0 +1,68 @@
+###
+POST http://localhost:3030/api/v1/people/person
+
+{
+    "name":"matias",
+    "lastname":"shanks",
+    "age": 34,
+    "address":{
+        "city":"cartagena",
+        "code_zip":"23",
+    }
+},
+
+{
+    "name":"maria",
+    "lastname":"wery",
+    "age": 22,
+    "address":{
+        "city":"dubai",
+        "code_zip":"456",
+    }
+}
+
+
+
+###
+GET  http://localhost:3030/api/v1/people
+
+
+
+###
+GET  http://localhost:3030/api/v1/people/person
+
+###
+PUT  http://localhost:3030/api/v1/people/person
+
+{
+    "age":19,
+    "address":{
+        "city":"pereira"
+    }
+}
+
+
+
+
+###
+GET  http://localhost:3030/api/v1/departaments
+
+###
+GET  http://localhost:3030/api/v1/departaments/5
+
+
+###
+GET  http://localhost:3030/api/v1/departaments/tarea/punto_1
+
+
+###
+GET  http://localhost:3030/api/v1/departaments/tarea/punto_2/departaments?depId=20
+
+
+###
+GET  http://localhost:3030/api/v1/departaments/tarea/punto_3/municipio?nombreMunicipio=Villavieja
+
+###
+GET  http://localhost:3030/api/v1/departaments/tarea/punto_4/C
+
+
